@@ -38,6 +38,8 @@ public class InvokeBrowser {
 	public WebDriver getDriver() {
 		return driver;
 	}
-
+public void fun1() {
+	System.out.println("im the onee");
+}
 
 }
