@@ -13,7 +13,7 @@ public class InvokeBrowser {
 	private static WebDriver driver;
 
 	public WebDriver invokeBrowser() {
-	 PropertyReader obj_PropertyReader=new PropertyReader();
+		PropertyReader obj_PropertyReader=new PropertyReader();
 		value=obj_PropertyReader.properyReader();
 		if(value.getProperty("browser").equalsIgnoreCase("chrome")) {
 			ChromeOptions obj_ChromeOptions=new ChromeOptions();
@@ -38,5 +38,6 @@ public class InvokeBrowser {
 	public WebDriver getDriver() {
 		return driver;
 	}
+
 
 }
